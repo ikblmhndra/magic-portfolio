@@ -1,14 +1,14 @@
 import { Logo } from "@/once-ui/components";
 
 const person = {
-  firstName: "Selene",
-  lastName: "Yu",
+  firstName: "Ikbal",
+  lastName: "Mahendra",
   get name() {
     return `${this.firstName} ${this.lastName}`;
   },
   role: "Design Engineer",
   avatar: "/images/avatar.jpg",
-  email: "example@gmail.com",
+  email: "ikbalmahendra.98@gmail.com",
   location: "Asia/Jakarta", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
   languages: ["English", "Bahasa"], // optional: Leave the array empty if you don't want to display languages
 };
@@ -30,17 +30,17 @@ const social = [
   {
     name: "GitHub",
     icon: "github",
-    link: "https://github.com/once-ui-system/nextjs-starter",
+    link: "https://github.com/ikblmhndra/",
   },
   {
     name: "LinkedIn",
     icon: "linkedin",
-    link: "https://www.linkedin.com/company/once-ui/",
+    link: "https://www.linkedin.com/in/ikblmhndra/",
   },
   {
-    name: "X",
-    icon: "x",
-    link: "",
+    name: "Instagram",
+    icon: "instagram",
+    link: "https://www.instagram.com/ikblmhndra_",
   },
   {
     name: "Email",
