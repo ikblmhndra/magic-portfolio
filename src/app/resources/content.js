@@ -1,12 +1,10 @@
-import { Logo } from "@/once-ui/components";
-
 const person = {
   firstName: "Ikbal",
   lastName: "Mahendra",
   get name() {
     return `${this.firstName} ${this.lastName}`;
   },
-  role: "Design Engineer",
+  role: "Infrastructure Security, Lead",
   avatar: "/images/avatar.jpg",
   email: "ikbalmahendra.98@gmail.com",
   location: "Asia/Jakarta", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
@@ -63,7 +61,7 @@ const home = {
   },
   subline: (
     <>
-      I'm Selene, a design engineer at <Logo icon={false} style={{ display: "inline-flex", top: "0.25em", marginLeft: "-0.25em" }}/>, where I craft intuitive
+      I'm Ikbal, a Infrastructure Security, Lead at Privy Identitas Digital, where I craft intuitive
       <br /> user experiences. After hours, I build my own projects.
     </>
   ),

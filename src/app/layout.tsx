@@ -1,5 +1,6 @@
 import "@/once-ui/styles/index.scss";
 import "@/once-ui/tokens/index.scss";
+import { SpeedInsights } from '@vercel/speed-insights/next';
 
 import classNames from "classnames";
 
@@ -22,6 +23,7 @@ export async function generateMetadata() {
 
 interface RootLayoutProps {
   children: React.ReactNode;
+
 }
 
 export default async function RootLayout({ children }: RootLayoutProps) {
@@ -67,6 +69,7 @@ export default async function RootLayout({ children }: RootLayoutProps) {
             `,
           }}
         />
+        <SpeedInsights />
       </head>
       <ThemeProvider>
         <ToastProvider>
