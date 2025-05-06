@@ -69,7 +69,6 @@ export default async function RootLayout({ children }: RootLayoutProps) {
             `,
           }}
         />
-        <SpeedInsights />
       </head>
       <ThemeProvider>
         <ToastProvider>
@@ -130,6 +129,7 @@ export default async function RootLayout({ children }: RootLayoutProps) {
               </Flex>
             </Flex>
             <Footer />
+            <SpeedInsights/>
           </Column>
         </ToastProvider>
       </ThemeProvider>
